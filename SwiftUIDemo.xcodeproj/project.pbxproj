@@ -11,7 +11,9 @@
 		452D9D3E29D2129600BE0BE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D9D3D29D2129600BE0BE0 /* ContentView.swift */; };
 		452D9D4029D212B500BE0BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452D9D3F29D212B500BE0BE0 /* Assets.xcassets */; };
 		452D9D4329D212B500BE0BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452D9D4229D212B500BE0BE0 /* Preview Assets.xcassets */; };
+		458D596629D492E10029AF4A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458D596529D492E10029AF4A /* Color.swift */; };
 		45B959DC29D4686C00991E24 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B959DB29D4686C00991E24 /* TextView.swift */; };
+		45B959DE29D4730A00991E24 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B959DD29D4730A00991E24 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +22,9 @@
 		452D9D3D29D2129600BE0BE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		452D9D3F29D212B500BE0BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452D9D4229D212B500BE0BE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		458D596529D492E10029AF4A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		45B959DB29D4686C00991E24 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		45B959DD29D4730A00991E24 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 				452D9D3B29D2129600BE0BE0 /* SwiftUIDemoApp.swift */,
 				452D9D3D29D2129600BE0BE0 /* ContentView.swift */,
 				45B959DB29D4686C00991E24 /* TextView.swift */,
+				45B959DD29D4730A00991E24 /* LoginView.swift */,
 				452D9D3F29D212B500BE0BE0 /* Assets.xcassets */,
 				452D9D4129D212B500BE0BE0 /* Preview Content */,
+				458D596529D492E10029AF4A /* Color.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				45B959DC29D4686C00991E24 /* TextView.swift in Sources */,
 				452D9D3E29D2129600BE0BE0 /* ContentView.swift in Sources */,
+				45B959DE29D4730A00991E24 /* LoginView.swift in Sources */,
+				458D596629D492E10029AF4A /* Color.swift in Sources */,
 				452D9D3C29D2129600BE0BE0 /* SwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
