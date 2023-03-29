@@ -7,16 +7,32 @@
 
 import SwiftUI
 
+//struct ContentView: View {
+//    var body: some View {
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
+//            Text("Hello, world!")
+//        }
+//        .padding()
+//    }
+//}
+
 struct ContentView: View {
+    @State private var isPushEnabled = false
+    @State private var isOnbording = true
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Form {
+            Toggle(isOn: $isPushEnabled) {
+                Text("Push enable")
+            }
+            Toggle(isOn: $isOnbording) {
+                Text("Show onbording")
+            }
         }
-        .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
